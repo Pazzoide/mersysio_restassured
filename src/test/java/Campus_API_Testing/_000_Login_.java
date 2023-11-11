@@ -70,19 +70,19 @@ public class _000_Login_ {
         }
     }
 
-    @AfterMethod
-    public void after(ITestResult iTestResult) {
-        String testStatus;
-        if (iTestResult.getStatus() == 1) {
-            testStatus = "SUCCESS";
-        } else if (iTestResult.getStatus() == 2) {
-            testStatus = "FAILURE";
-        } else {
-            testStatus = "SKIPPED";
-        }
-
-        ExcelManager.excelWriter("Test Excel Reports/ExcelOutput.xlsx", iTestResult, testStatus);
-
-    }
+//    @AfterMethod
+//    public void after(ITestResult iTestResult) {
+//        String testStatus;
+//        if (iTestResult.getStatus() == 1) {
+//            testStatus = "SUCCESS";
+//        } else if (iTestResult.getStatus() == 2) {
+//            testStatus = "FAILURE";
+//        } else {
+//            testStatus = "SKIPPED";
+//        }
+//
+//        ExcelManager.excelWriter("Test Excel Reports/ExcelOutput.xlsx", iTestResult, testStatus);
+//
+//    }
 
 }
