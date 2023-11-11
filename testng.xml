@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/fatih/IdeaProjects/mersysio_restassuredD">
+        <classes>
+            <class name="Campus_API_Testing._000_Login_">
+                <methods>
+                    <include name="Login_Negative"/>
+                </methods>
+            </class>
+            <class name="Campus_API_Testing._001_Position_Category_">
+                <methods>
+                    <include name="Adding"/>
+                    <include name="Adding_Negative"/>
+                    <include name="Update"/>
+                    <include name="Delete"/>
+                    <include name="Delete_Negative"/>
+                </methods>
+            </class>
+            <class name="Campus_API_Testing._002_Attestations_">
+                <methods>
+                    <include name="Adding"/>
+                    <include name="Adding_Negative"/>
+                    <include name="Update"/>
+                    <include name="Delete"/>
+                    <include name="Delete_Negative"/>
+                </methods>
+            </class>
+            <class name="Campus_API_Testing._003_Document_Type_">
+                <methods>
+                    <include name="createDocumentTypes"/>
+                    <include name="updateDocumentTypes"/>
+                    <include name="deleteDocumentTypes"/>
+                    <include name="deleteDocumentTypes_Negative"/>
+                </methods>
+            </class>
+            <class name="Campus_API_Testing._004_Fields_">
+                <methods>
+                    <include name="createFields"/>
+                    <include name="createFields_Negative"/>
+                    <include name="updateFields"/>
+                    <include name="deleteFields"/>
+                    <include name="deleteFields_Negative"/>
+                </methods>
+            </class>
+            <class name="Campus_API_Testing._007_Locations_">
+                <methods>
+                    <include name="createLocations"/>
+                    <include name="createLocation_Negative"/>
+                    <include name="updateLocation"/>
+                    <include name="deleteLocation"/>
+                    <include name="deleteLocation_Negative"/>
+                </methods>
+            </class>
+            <class name="Campus_API_Testing._008_Departments_">
+                <methods>
+                    <include name="createDepartment"/>
+                    <include name="createDepartment_Negative"/>
+                    <include name="updateDepartment"/>
+                    <include name="deleteDepartment"/>
+                    <include name="deleteDepartment_Negative"/>
+                </methods>
+            </class>
+            <class name="Campus_API_Testing._011_Discounts">
+                <methods>
+                    <include name="createDiscount"/>
+                    <include name="createDiscount_Negative"/>
+                    <include name="updateDiscount"/>
+                    <include name="deleteDiscount"/>
+                    <include name="deleteDiscount_Negative"/>
+                </methods>
+            </class>
+            <class name="Campus_API_Testing._012_Nationalities">
+                <methods>
+                    <include name="createNationality"/>
+                    <include name="createNationality_Negative"/>
+                    <include name="updateNationality"/>
+                    <include name="deleteNationality"/>
+                    <include name="deleteNationality_Negative"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
